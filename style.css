@@ -1,0 +1,35 @@
+body{
+    background-color: blanchedalmond;
+    color: rgb(58, 6, 6);
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+    font-size: 35px;
+}
+
+button{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 100%;
+}
